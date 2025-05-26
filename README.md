@@ -1,5 +1,7 @@
 # MPIN Strength Checker
 
+GITHUB LINK: https://github.com/bhavyaaaa08/mpin-checker/tree/main
+
 This project is a secure, rule-based MPIN (Mobile PIN) strength checker built with Python, MySQL, and Streamlit. It analyzes both 4-digit and 6-digit MPINs to determine their strength based on:
 
 - Commonly used PINs (based on public datasets)

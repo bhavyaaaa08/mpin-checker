@@ -49,15 +49,15 @@ Bhavya/
 - Logs every submission into a MySQL database for audit/history.
 - Uses `.env` to securely manage database credentials.
 - **User ID Format**: User IDs are strictly 4-digit numbers (e.g., `1234`, `0001`), validated both in the application and test cases.
-- ![alt1](screenshots/Screenshot 2025-05-26 161640.png)
+- ![alt1](screenshots/Screenshot%202025-05-26%20161640.png)
 
 - **Handles MPIN Updates**: If a user changes their MPIN, the system updates the existing record in the database for that `user_id`, ensuring only the latest MPIN and its evaluation are stored.
-- ![alt2](screenshots/Screenshot 2025-05-26 161554.png)
+- ![alt2](screenshots/Screenshot%202025-05-26%20161554.png)
 
 
 ## Database Usage
 
-![alt3](screenshots/Screenshot 2025-05-26 153239.png)
+![alt3](screenshots/Screenshot%202025-05-26%20153239.png)
 
 
 The project uses a MySQL database (`mpin_db`) to store MPIN evaluation logs. The `mpin_logs` table is designed to:
@@ -140,8 +140,8 @@ This will launch the web interface. You'll be able to:
 ## Test Cases
 
 - Located in `test_4digit.py` (4-digit system) and `test_6digit.py` (6-digit system).
-- ![alt4](screenshots/Screenshot 2025-05-26 151656.png)
-- ![alt5](screenshots/Screenshot 2025-05-26 152622.png)
+- ![alt4](screenshots/Screenshot%202025-05-26%20151656.png)
+- ![alt5](screenshots/Screenshot%202025-05-26%20152622.png)
 - Each file contains **25+ test scenarios** covering:
   - Common MPINs (e.g., `1234`, `123456`)
   - Demographic matches (DOB, spouse DOB, anniversary)

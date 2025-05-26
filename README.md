@@ -140,11 +140,7 @@ This will launch the web interface. You'll be able to:
   - `user_id` validation (must be a 4-digit number)
 - Run the tests from the respective directory:
   ```
-  python -m unittest test_4digit.py
-  ```
-  or
-  ```
-  python -m unittest test_6digit.py
+  python -m unittest test-cases.py
   ```
 
 ## Why No ML Model?
